@@ -45,9 +45,9 @@ puts "Please enter a command:"
   until input == "exit" do
     input = gets.strip
     if input == "list"
-      list()
+      list
       elsif input == "play"
-      play()
+      play
       elsif input == "help"
       help
     end
