@@ -42,7 +42,7 @@ end
 
 def run
 puts "Please enter a command:"
-until (input == "exit")
+loop do
 input = gets.strip
     if input == "list"
       list(array)
