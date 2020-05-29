@@ -44,7 +44,7 @@ def run(array)
 puts "Please enter a command:"
   
   until input == "exit" do
-    
+    input = gets.strip
     if input == "list"
       list(array)
       elsif input == "play"
