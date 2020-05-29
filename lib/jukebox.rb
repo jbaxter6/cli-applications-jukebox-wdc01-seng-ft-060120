@@ -42,11 +42,8 @@ end
 
 def run
 puts "Please enter a command:"
- loop do 
-    input = gets.chomp
-    if input == "exit"
-      break
-    end
+  until input == "exit" do
+    input = gets.strip
     if input == "list"
       list(array)
       elsif input == "play"
