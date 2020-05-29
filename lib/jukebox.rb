@@ -42,9 +42,9 @@ end
 
 def run
 puts "Please enter a command:"
-  input = nil
+  input = gets.strip
   until input == "exit" do
-    input = gets.strip
+    
     if input == "list"
       list
       elsif input == "play"
