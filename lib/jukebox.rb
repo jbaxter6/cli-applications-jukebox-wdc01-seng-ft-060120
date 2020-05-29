@@ -42,8 +42,8 @@ end
 
 def run
 puts "Please enter a command:"
-input = gets.strip
-  loop do 
+ loop do 
+    input = gets.strip
     if input == "exit"
       break
     end
