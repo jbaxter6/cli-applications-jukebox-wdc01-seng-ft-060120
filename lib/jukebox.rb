@@ -44,6 +44,9 @@ def run
 puts "Please enter a command:"
 input = gets.strip
   loop do 
+    if input == "exit"
+      break
+    end
     if input == "list"
       list(array)
       elsif input == "play"
@@ -51,7 +54,6 @@ input = gets.strip
       elsif input == "help"
       help
     end
-    break if input == "exit"
-end
+  end
 exit_jukebox
 end
