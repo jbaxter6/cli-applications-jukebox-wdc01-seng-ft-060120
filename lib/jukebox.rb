@@ -40,7 +40,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(array)
 puts "Please enter a command:"
   input = gets.strip
   until input == "exit" do
