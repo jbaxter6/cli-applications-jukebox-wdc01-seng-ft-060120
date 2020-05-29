@@ -42,7 +42,7 @@ end
 
 def run(array)
 puts "Please enter a command:"
-  input = gets.strip
+  
   until input == "exit" do
     
     if input == "list"
