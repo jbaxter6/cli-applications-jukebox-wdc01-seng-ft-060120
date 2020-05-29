@@ -46,9 +46,9 @@ puts "Please enter a command:"
   until input == "exit" do
     
     if input == "list"
-      list(array)
+      list(songs)
       elsif input == "play"
-      play(array)
+      play(songs)
       elsif input == "help"
       help
     end
