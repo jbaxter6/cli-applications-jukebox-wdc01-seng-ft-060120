@@ -43,7 +43,7 @@ end
 def run
 puts "Please enter a command:"
 loop do
-input = gets.strip
+
     if input == "list"
       list(array)
       elsif input == "play"
