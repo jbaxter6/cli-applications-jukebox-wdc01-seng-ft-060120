@@ -42,6 +42,7 @@ end
 
 def run
 puts "Please enter a command:"
+
 loop do
 
     if input == "list"
