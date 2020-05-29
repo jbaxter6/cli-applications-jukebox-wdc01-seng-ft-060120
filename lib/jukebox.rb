@@ -42,13 +42,13 @@ end
 
 def run
 puts "Please enter a command:"
-
+  input = gets.strip
   until input == "exit" do
-    input = gets.strip
+    
     if input == "list"
-      list
+      list(array)
       elsif input == "play"
-      play
+      play(array)
       elsif input == "help"
       help
     end
